@@ -678,6 +678,9 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_reset
+id btn_start
+id btn_stop
 id buttonPanel
 id center
 id center_horizontal
@@ -685,6 +688,7 @@ id center_vertical
 id chains
 id checkbox
 id chronometer
+id chronometro
 id clip_horizontal
 id clip_vertical
 id collapseActionView
