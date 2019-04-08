@@ -2,30 +2,59 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="COLD"
-    density="xxhdpi"
+    build-mode="FULL"
+    density="xhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.3.2"
-    timestamp="1554620435007"
+    timestamp="1554700393048"
     token="-4620628645316799645"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="204" />
+        duration="4708" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="40" />
+        duration="458" />
     <task
         name="verifier"
-        duration="5" />
+        duration="243" />
 
     <artifact
+        location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
@@ -33,52 +62,40 @@
 
     <build
         build-mode="FULL"
-        timestamp="1554620071076"
+        timestamp="1554700393048"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1554620435007"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Geysel Rodriguez\AndroidStudioProjects\Cronometro\app\build\intermediates\instant-run-apk\debug\app-debug.apk"

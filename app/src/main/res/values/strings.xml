@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Cronometro</string>
+    <string name="Switch">Temporizador</string>
+    <string name="Switch1">Cronometro</string>
 </resources>

@@ -4,35 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:background="@drawable/determined"
+    android:gravity="bottom|center|center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Chronometer
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
         android:id="@+id/chronometro"
-        android:textSize="35sp"
-        android:textColor="@android:color/black"
-        />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="45sp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        tools:text="@string/Switch" />
 
     <Button
         android:id="@+id/btn_start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start" />
+        android:background="#0000ffff"
+        android:text="Start"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btn_stop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Stop" />
+        android:background="#0000ffff"
+        android:text="Stop"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btn_reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reset" />
+        android:background="#0000ffff"
+        android:text="Reset"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
 
 </LinearLayout>
 

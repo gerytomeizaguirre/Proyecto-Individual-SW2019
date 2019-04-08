@@ -18,13 +18,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="cronometro.android.aplicacion.MainActivity" >
+        <activity android:name="cronometro.android.aplicacion.Temporizador" />
+        <activity android:name="cronometro.android.aplicacion.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="cronometro.android.aplicacion.MainActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
